@@ -1,0 +1,17 @@
+.EightBall {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    background-color: rgba(0, 0, 0, 0.30);
+    position: relative;
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    transition: background-color 1s ease;
+}
+
+.EightBall-Answers{
+    position:absolute;
+    display: flex;
+    color: white;
+}
